@@ -14,7 +14,7 @@ ADMIN_ID = env.list('ADMIN_ID')
 IP = env.str('IP')
 
 bot = telebot.TeleBot(BOT_TOKEN)
-openai.api_key = 'API_KEY'
+openai.api_key = API_KEY
 
 
 @bot.message_handler(content_types=['text'])
